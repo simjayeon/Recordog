@@ -1,7 +1,18 @@
-body{
+body {
     margin: 10px;
 }
-.profile-ground{
+
+.profile-ground {
     width: 100%;
     margin: 10px;
+}
+
+.profile-line-1 {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+}
+.profile-line-1 > btn btn-primary btn-md{
+    float: right;
 }
